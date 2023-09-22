@@ -1,10 +1,20 @@
-
-
-.bigTitle
-{
-text-align: center;
+.bigTitle {
+  text-align: center;
 }
 body {
-        background-image: url("background.jpeg");
-      }
+  background-image: url("background.jpeg");
+}
 
+.box {
+  margin: auto;
+  width: 350px;
+  border: 100px red;
+  outline: solid 10px black;
+  height: 250px;
+}
+
+.london {
+margin: left;
+
+
+}
