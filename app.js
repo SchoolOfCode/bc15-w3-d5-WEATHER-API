@@ -14,10 +14,15 @@ async function retrieveTemperature() {
   // 1. WE need to create a function that returns our variable temperture farehight.
   // 2. Implament it into us our weather app.
 
-  function returnFarhenheit() {
+  function returnFahrenheit() {
     return temperature * (9 / 5) + 32;
   }
 
   console.log(returnFahrenheit());
+  const keyElement2 = document.getElementById("fkey");
+  keyElement2.textContent = temperature2;
+
 }
 retrieveTemperature();
+
+returnFahrenheit();
