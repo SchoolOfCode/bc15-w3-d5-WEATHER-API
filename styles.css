@@ -14,7 +14,27 @@ body {
 }
 
 .london {
-margin: left;
+    position: fixed;
+    left: 350px;
+    top: 200px;
+}
 
+.weather {
+    position: fixed;
+    right: 350px;
+    top: 100px;
+}
 
+.location{
+    
+position: fixed;
+left: 350px;
+top: 100px;
+    
+}
+
+#key {
+    position: fixed;
+    right: 350px;
+    top: 200px;
 }
