@@ -3,7 +3,6 @@
 // 2.We have located where we can access it from.
 // 3.We have tried to log that data to browswer console and not getting anything in return.
 // 4. Figure out why we cant log to browswer
-// 
 
 async function getAndDisplayNewWeather() {
   const degrees = await retrieveDegrees();
