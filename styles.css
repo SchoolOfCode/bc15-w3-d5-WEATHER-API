@@ -15,20 +15,20 @@ body {
 
 .london {
     position: fixed;
-    left: 350px;
-    top: 200px;
+    left: 300px;
+    top: 150px;
 }
 
 .weather {
     position: fixed;
-    right: 350px;
+    right: 300px;
     top: 100px;
 }
 
 .location{
     
 position: fixed;
-left: 350px;
+left: 300px;
 top: 100px;
     
 }
@@ -36,12 +36,18 @@ top: 100px;
 #key {
     position: fixed;
     right: 350px;
-    top: 200px;
+    top: 150px;
 }
 
 
 #fkey {
     position: fixed;
-    right: 350px;
-    top: 250px;
+    right: 325px;
+    top: 200px;
 }
+
+.US {
+    position: fixed;
+    left: 300px;
+    top: 200px;
+}    
